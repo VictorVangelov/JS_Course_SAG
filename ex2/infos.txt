@@ -1,0 +1,51 @@
+
+
+===================================================================
+Scopes: 
+
+
+
+difference between 'var' and 'let'
+var create variable with scope in the whole file
+
+except when var is created in function
+
+
+var -> is visible in file, except when it is declared in funtion (its visible only in function)
+let -> is visible only in the block
+
+scope -> every funtion has own scope
+
+===================================================================
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Lecuture 4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+IIFE = Immediately Invoked Function Expression
+if you want to execute something and wrap functions as a lib use brackets -> (function(){some code})();
+===================================================================
+Closures and scopes
+in {} only keyword 'let' can make scope ex -> {let x =4;}
+=================
+recursion
+===============
+script elements need to be in the end of the file, when they work with elements of the html file
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Lecuture 5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+There is no 'private' for fields, you can encapsulate it in function, which return another object or function
+
+"use strict" -> throws exception when somethings wrong
+
+let ford = Object.create(car); -> inherit some object
+
+to install live server
